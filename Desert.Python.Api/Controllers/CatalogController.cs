@@ -38,7 +38,9 @@ namespace Desert.Python.Api.Controllers
 		[HttpPost]
 		public IActionResult NewItem(Item item)
 		{
-			return Created("/catalog/42", item);
+			_db.Items.Add(item);
+			_db.SaveChanges();
+			return Created($"/catalog/{item.Id}", item);
 		}
 
 		[HttpPost("{id:int}/ratings")]
