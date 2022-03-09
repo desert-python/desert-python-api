@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Desert.Python.Domain\Desert.Python.Domain.csproj" />
+    <ProjectReference Include="..\Desert.Python.Data\Desert.Python.Data.csproj" />
   </ItemGroup>
 
 </Project>
