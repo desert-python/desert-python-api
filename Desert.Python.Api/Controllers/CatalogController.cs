@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Desert.Python.Domain.Catalog;
+using Desert.Python.Domain.catalog;
 
 namespace Desert.Python.Api.Controllers
 {

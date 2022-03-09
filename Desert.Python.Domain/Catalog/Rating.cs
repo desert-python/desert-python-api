@@ -1,4 +1,4 @@
-namespace Desert.Python.Domain.Catalog;
+namespace Desert.Python.Domain.catalog;
 
 public class Rating
 {
