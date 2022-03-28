@@ -1,4 +1,5 @@
 ﻿using Desert.Python.Domain.catalog;
+using Desert.Python.Domain.orders;
 using Microsoft.EntityFrameworkCore;
 
 namespace Desert.Python.Data
@@ -11,10 +12,6 @@ namespace Desert.Python.Data
 
 		public DbSet<Item> Items { get; set; }
 
-		protected override void OnModelCreating(ModelBuilder builder)
-		{
-			base.OnModelCreating(builder);
-			DbInitializer.Initialize(builder);
-		}
+		public DbSet<Order> Orders { get; set; }
 	}
 }
