@@ -4,17 +4,17 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:54540",
-      "sslPort": 44360
+      "applicationUrl": "http://localhost:28394",
+      "sslPort": 44380
     }
   },
   "profiles": {
-    "desert_python.Api": {
+    "Desert.Python.Api": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7071;http://localhost:5127",
+      "applicationUrl": "https://localhost:7007;http://localhost:5218",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
