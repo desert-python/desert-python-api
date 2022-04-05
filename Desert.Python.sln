@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desert.Python.Data", "Deser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desert.Python.Domain", "Desert.Python.Domain\Desert.Python.Domain.csproj", "{9BBD8B29-236B-454D-8C0A-4E6662C9A266}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7A37B62D-4FB0-4240-8761-FFCCD41C4B11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desert.Python.Domain.Tests", "tests\Desert.Python.Domain.Tests\Desert.Python.Domain.Tests.csproj", "{414A6E59-50A2-4F6C-AB3F-9B683B782B40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{9BBD8B29-236B-454D-8C0A-4E6662C9A266}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BBD8B29-236B-454D-8C0A-4E6662C9A266}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BBD8B29-236B-454D-8C0A-4E6662C9A266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414A6E59-50A2-4F6C-AB3F-9B683B782B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414A6E59-50A2-4F6C-AB3F-9B683B782B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414A6E59-50A2-4F6C-AB3F-9B683B782B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414A6E59-50A2-4F6C-AB3F-9B683B782B40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{414A6E59-50A2-4F6C-AB3F-9B683B782B40} = {7A37B62D-4FB0-4240-8761-FFCCD41C4B11}
 	EndGlobalSection
 EndGlobal
