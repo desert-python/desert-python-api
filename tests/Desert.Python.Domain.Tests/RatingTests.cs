@@ -23,4 +23,15 @@ public class RatingTests
 		{
 			var rating = new Rating(0, "Mike", "Great fit!");
 		}
+
+		[TestMethod]
+		public void Can_Create_Add_Rating()
+		{
+			var item = new Item("Name", "Description", "Brand", 10.00m);
+			var rating = new Rating(1, "Mike", "Great fit!");
+
+			item.AddRating(rating);
+
+			Assert.AreEqual(rating, item.Ratings[0]);
+		}
 }
