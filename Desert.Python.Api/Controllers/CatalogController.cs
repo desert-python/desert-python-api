@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Desert.Python.Domain.catalog;
 using Desert.Python.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Desert.Python.Api.Controllers
 {
@@ -80,6 +81,7 @@ namespace Desert.Python.Api.Controllers
 		}
 
 		[HttpDelete("{id:int}")]
+		[Authorize("delete:catalog")]
 		public IActionResult DeleteItem(int id)
 		{
 			var item = _db.Items.Find(id);
