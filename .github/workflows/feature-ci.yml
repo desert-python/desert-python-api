@@ -16,8 +16,8 @@ jobs:
         with:
           dotnet-version: 6.0.x
       - name: Restore
-        run: dotnet Restore
+        run: dotnet restore
       - name: Build
-        run: dotnet Build
+        run: dotnet build
       - name: Test
         run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true
