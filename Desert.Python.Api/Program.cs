@@ -1,6 +1,5 @@
 using Desert.Python.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Sqlite;
 using Desert.Python.Api.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
