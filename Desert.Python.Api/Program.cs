@@ -39,7 +39,7 @@ builder.Services.AddCors(options =>
 {
 	options.AddDefaultPolicy(builder => 
 	{
-		builder.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod();
+		builder.WithOrigins("http://localhost:3000", "https://desert-python-api.azurewebsites.net").AllowAnyHeader().AllowAnyMethod();
 	});
 });
 builder.Services.AddEndpointsApiExplorer();
